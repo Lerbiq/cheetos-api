@@ -1,0 +1,18 @@
+{
+  "name": "cheetos-api",
+  "version": "1.0.0",
+  "description": "Simple api for CheetosReborn's capes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lerbiq",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
