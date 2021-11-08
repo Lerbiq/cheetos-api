@@ -7,7 +7,7 @@ function getCapeOwners(){
     let res = "";
     for (let key in capeOwners) {
         if(capeOwners.hasOwnProperty(key)){
-            res = res + key + " " + capeOwners[key] + "<br/>";
+            res = res + key + " " + capeOwners[key] + "\n";
         }
     }
     return res;
@@ -17,7 +17,7 @@ function getCapes(){
     let res = "";
     for(let key in capes){
         if(capes.hasOwnProperty(key)){
-            res = res + key + " " + capes[key] + "<br/>";
+            res = res + key + " " + capes[key] + "\n";
         }
     }
     return res;
